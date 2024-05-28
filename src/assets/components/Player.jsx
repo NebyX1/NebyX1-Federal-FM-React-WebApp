@@ -41,7 +41,7 @@ export const Player = () => {
                 </div>
             </div>
             <audio ref={audioRef}>
-                <source src="http://usa15.ciudaddigital.com.uy:8040/FederalFM" type="audio/mpeg" />
+                <source src="/netlify/functions/proxy.js" type="audio/mpeg" />
                 Tu navegador no soporta el elemento de audio.
             </audio>
         </div>
