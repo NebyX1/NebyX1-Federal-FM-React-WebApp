@@ -1,0 +1,31 @@
+.bannerContainer {
+    position: relative;
+    width: 50vh;
+    max-width: 70vw;
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+}
+
+.bannerImage {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-height: 60vh; /* Limita la altura máxima a 60vh para pantallas pequeñas */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+}
+
+.bannerImage.active {
+    display: block;
+}
+
+/* Añade media queries para ajustes específicos en pantallas pequeñas */
+@media (max-width: 768px) {
+    .bannerImage {
+        max-height: 50vh; /* Ajusta la altura máxima para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .bannerImage {
+        max-height: 40vh; /* Ajusta la altura máxima para pantallas aún más pequeñas */
+    }
+}
