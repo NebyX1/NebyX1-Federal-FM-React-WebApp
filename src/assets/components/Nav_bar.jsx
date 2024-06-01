@@ -28,18 +28,18 @@ export const Nav_bar = () => {
             </li>
           </ul>
           <div className="ms-auto d-flex mx-5">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
+            <a href="https://www.facebook.com/profile.php?id=100069228343321" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
               <i style={{fontSize: "30px"}} className="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
+            <a href="https://www.instagram.com/palabrasmas_99.1/" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
               <i style={{fontSize: "30px"}} className="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
+            <a href="https://www.youtube.com/@palabrasmaspalabrasmenos6588" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
               <i style={{fontSize: "30px"}} className="fa-brands fa-youtube"></i>
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
+            {/* <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="nav-icon-effect mx-2">
               <i style={{fontSize: "30px"}} className="fa-brands fa-square-twitter"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ export const Contact = () => {
 
     const mailSubject = `${name} ${subject}`;
     const link = document.createElement('a');
-    link.href = `mailto:federalfm99.1@gmail.com?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(message)}&cc=${encodeURIComponent(email)}`;
+    link.href = `mailto:federalfm@federalfm.com.uy?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(message)}&cc=${encodeURIComponent(email)}`;
     link.click();
 
     // Limpiar los campos del formulario después de enviar
@@ -56,26 +56,26 @@ export const Contact = () => {
         <h1 className="display-2" style={{ color: '#8D455E' }}>Contacto</h1>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-4 mb-4">
         <div className="mb-2 heading-size d-flex align-items-center justify-content-center">
           <h2 className="ms-2 headings-font text-white">Datos de Contacto:</h2>
         </div>
-        <p style={{ color: '#8D455E' }}>
+        <p style={{ color: '#8D455E' }} className='mt-4'>
           Treinta Y Tres 632 - Minas - Lavalleja - Uruguay<br />
           Estudio: (+598) 4442 4873 - Comercial: (+598) 4442 4001
         </p>
       </div>
       
-      <div className="mt-5">
+      {/* <div className="mt-2 mb-2">
         <div className="mb-2 heading-size d-flex align-items-center justify-content-center">
           <h2 className="ms-2 headings-font text-white">Envíanos un mensaje:</h2>
         </div>
         <a href="https://wa.me/59844424873?text=Hola%20Federal%20FM" target="_blank" rel="noopener noreferrer">
           <img src="https://img.icons8.com/color/96/000000/whatsapp.png" style={{ borderRadius: '50%', backgroundColor: '#25D366' }} alt="WhatsApp" />
         </a>
-      </div>
+      </div> */}
 
-      <div className="mt-5">
+      <div className="mt-4 mb-4">
         <div className="mb-2 heading-size d-flex align-items-center justify-content-center">
           <h2 className="ms-2 headings-font text-white">Visitanos:</h2>
         </div>
@@ -87,10 +87,11 @@ export const Contact = () => {
           allowFullScreen 
           loading="lazy" 
           title="Mapa de Federal FM"
+          className='mt-4'
         ></iframe>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-4 mb-4">
         <div className="heading-size d-flex align-items-center justify-content-center">
           <h2 className="ms-2 headings-font text-white">Envíanos un mail:</h2>
         </div>
